@@ -1,0 +1,141 @@
+/*Estilos generales*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: 'Lucida Sans', sans-serif;
+    /* color: #f3f3ea
+    #e63d00
+    #ce3700
+    #000000
+    #ffffff; */
+}
+
+body{
+    background-color: #f3f3e4;
+}
+body::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+body::-webkit-scrollbar-track {
+    background: transparent;
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color:#e63d00 ;
+    border-radius: 20px;
+}
+
+#content{
+    margin: 0px 50px;
+    overflow: hidden;
+}
+
+/*Estilos de la cabecera*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+header h1{
+    display: block;
+    color: #e63d00 ;
+    font-family: sans-serif;
+}
+
+header nav ul{
+    display: inline-flex;
+}
+header nav ul li{
+    width: auto;
+    margin: 0px 30px;
+}
+header nav ul a{
+    display: block;
+    text-decoration: none;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+}
+header nav ul a:hover{
+    color: #e63d00;
+}
+header nav ul li:last-child:hover{
+    transform: scale(1.5);
+    transition: all 1s;
+}
+
+/*Estilos de la presentacion*/
+
+#principal{
+    overflow: hidden;
+    width: 94%;
+    margin: 0 auto;
+}
+section #presentation{
+    margin: 50px 50px 0px 50px;
+    text-align: center;
+}
+section #presentation img{
+    width: 400px;
+    border-radius: 50%;
+}
+section #presentacion img, h1, p, a{
+    margin: 15px 0px;
+    font-family: sans-serif;
+}
+section #presentation h1{
+    font-size: 35px;
+}
+
+section #presentation p, a{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 540;
+    text-decoration: none;
+}
+section #presentation a{
+    color:#ce3700;
+}
+section #presentation a:hover{
+    text-decoration: underline;
+}
+
+/*Estilos de las fotografias*/
+
+section #photography{
+    display: flex;
+    height: 100vh;
+    margin: 0px 60px;
+    overflow: hidden;
+    overflow-x: scroll;
+    align-items: center;
+    gap: 120px;
+}
+section #photography img{
+    width: 220px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.374);
+}
+section #photography::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+section #photography::-webkit-scrollbar-track {
+    background: transparent;
+}
+  
+section #photography::-webkit-scrollbar-thumb {
+    background-color:#e63d00 ;
+    border-radius: 20px;
+}
+
+
+
+
